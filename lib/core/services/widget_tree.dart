@@ -15,6 +15,7 @@ class WidgetTree extends StatelessWidget {
     if(auth.currentUser!=null){
           return PageSwitcher();
         } else {
+
           return LoginPage();
           }
 
